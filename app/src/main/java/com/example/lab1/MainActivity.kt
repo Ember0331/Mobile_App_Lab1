@@ -1,4 +1,4 @@
-package YOUR.ACTUAL.PACKAGE.NAME   // <-- change this first
+package com.example.lab1
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -54,7 +54,7 @@ fun ProfileCard() {
         Spacer(modifier = Modifier.height(8.dp))
 
         Text(
-            text = "Ember Johnson",
+            text = "Ember Rodefer",
             fontSize = 24.sp,
             fontWeight = FontWeight.Bold
         )
