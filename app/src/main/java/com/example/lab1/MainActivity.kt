@@ -38,16 +38,17 @@ class MainActivity : ComponentActivity() {
 fun ProfileCard() {
     Column(
         modifier = Modifier
-            .fillMaxWidth()
+            .fillMaxSize()
             .padding(16.dp),
-        horizontalAlignment = Alignment.CenterHorizontally
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Center
     ) {
 
         Image(
             painter = painterResource(id = R.drawable.profile_image),
-            contentDescription = "Profile Picture",
+            contentDescription = "Profile picture",
             modifier = Modifier
-                .size(120.dp)
+                .size(140.dp)
                 .clip(CircleShape)
         )
 
